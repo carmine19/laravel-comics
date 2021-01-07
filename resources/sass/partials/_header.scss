@@ -1,0 +1,91 @@
+header {
+
+    .h-top {
+        background: $primary_color;
+        padding: 3px;
+
+        .box-link {
+
+            ul {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                li {
+
+                    &:first-child {
+                        margin-right: 60px;
+                    }
+
+                    a {
+                        color: #fff;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .h-bottom {
+         border-bottom: 1px solid lightgray;
+
+        .container {
+
+            .main-box {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+
+                .box-logo {
+                    height: 120px;display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        width: 80px;
+                    }
+                }
+
+                .box-menu {
+
+                    ul {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        li {
+                            margin-right: 20px;
+
+                            a {
+                                color: $menu_link_color;
+                                font-size: 15px;
+                                text-transform: uppercase;
+                                font-weight: bold;
+
+                                &:hover, &:active {
+                                    color: $primary_color;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .box-search {
+                    border-bottom: 2px solid $primary_color;
+
+                    .input-menu {
+                        text-align: right;
+                        border: none;
+
+                        &::placeholder {
+                            color: black;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

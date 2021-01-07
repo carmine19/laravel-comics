@@ -1,0 +1,41 @@
+//
+
+main {
+
+    #bg-hero {
+        background-image: url("/images/jumbotron.jpg");
+        background-repeat: none;
+        background-size: cover;
+        min-height: 400px;
+    }
+
+    #card {
+        padding: 40px;
+        background: $bg_box_card;
+        color: #fff;
+
+        h2 {
+            display: inline-block;
+            padding: 10px;
+            background: $primary_color;
+            color: #fff;
+            transform: translateY(-65px);
+        }
+
+        .box-image {
+            height: 180px;
+            overflow: hidden;
+            margin-bottom: 10px;
+
+            img {
+                max-width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        p {
+            text-transform: uppercase;
+        }
+    }
+
+}
