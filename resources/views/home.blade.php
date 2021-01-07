@@ -29,4 +29,65 @@
             </div>
         </div>
     </section>
+
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 offset-1">
+                    <div class="box-banner">
+                        <div class="box-img">
+                            <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="">
+                        </div>
+                        <div class="box-text">
+                            <h3>Digital Comics</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="box-banner">
+                        <div class="box-img">
+                            <img src="{{asset('images/buy-comics-merchandise.png')}}" alt="">
+                        </div>
+                        <div class="box-text">
+                            <h3>Digital Comics</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="box-banner">
+                        <div class="box-img">
+                            <img src="{{asset('images/buy-comics-shop-locator.png')}}" alt="">
+                        </div>
+                        <div class="box-text">
+                            <h3>Digital Comics</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="box-banner">
+                        <div class="box-img">
+                            <img src="{{asset('images/buy-comics-subscriptions.png')}}" alt="">
+                        </div>
+                        <div class="box-text">
+                            <h3>Digital Comics</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="box-banner">
+                        <div class="box-img">
+                            <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="">
+                        </div>
+                        <div class="box-text">
+                            <h3>Digital Comics</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection

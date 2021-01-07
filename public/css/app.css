@@ -135,3 +135,25 @@ main #card .box-image img {
 main #card p {
   text-transform: uppercase;
 }
+main #banner {
+  background: #0282F9;
+  color: #fff;
+}
+main #banner .box-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #banner .box-banner .box-img img {
+  max-width: 30px;
+  margin-right: 5px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main #banner .box-banner .box-text h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-weight: bold;
+}

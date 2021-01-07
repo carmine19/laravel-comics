@@ -38,4 +38,35 @@ main {
         }
     }
 
+    #banner {
+        background: $primary_color;
+        color:#fff;
+
+        .box-banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .box-img {
+
+                img {
+                    max-width: 30px;
+                    margin-right: 5px;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            .box-text {
+
+                h3 {
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    margin: 0 auto;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
 }
