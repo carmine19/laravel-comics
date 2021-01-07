@@ -16,12 +16,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $comics = config('comics');
-
     $data= [
-
         'comics' => $comics
     ];
    // per stampare la variabile =>  dd($comics);
-
     return view('home', $data);
 })->name('home');
+
+
+
+Route::get('/single-p', function () {
+
+    $comics = config('comics');
+    $data= [
+        'comics' => $comics
+    ];
+   // per stampare la variabile =>  dd($comics);
+    return view('single-product', $data);
+})->name('product');

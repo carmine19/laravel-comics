@@ -14,7 +14,9 @@
             <div class="container">
                 <div class="main-box">
                     <div class="box-logo">
-                        <img src="{{asset('images/dc-logo.png')}}" alt="">
+                        <a href="{{route('home')}}">
+                            <img src="{{asset('images/dc-logo.png')}}" alt="">
+                        </a>
                     </div>
                     <div class="box-menu">
                         <ul>
