@@ -1,0 +1,129 @@
+footer {
+    color: #fff;
+
+    .f-top {
+        background-image: url("/images/footer-bg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+
+        .box-image {
+            position: absolute;
+            right: 80px;
+            overflow: hidden;
+            top: -60px;
+        }
+
+        .container {
+            display: flex;
+
+            .box-text-end {
+                margin-top: 20px;
+                padding-bottom: 30px;
+
+                p {
+                    font-size: 13px;
+                    margin: 0;
+                    color: $footer_link_color;
+                }
+            }
+        }
+
+        .main-box {
+            padding-top: 30px;
+            margin-right: 60px;
+
+            .box-link {
+
+                ul {
+                    padding: 0;
+
+                    li {
+
+                        a {
+                            color: $footer_link_color;
+                            font-size: 13px;
+                            text-transform: capitalize;
+
+                            &:hover {
+                                color: $primary_color;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .title {
+
+                h3 {
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+            }
+
+            .box-2 {
+                margin-top: 20px;
+            }
+
+
+        }
+    }
+
+    .f-bottom {
+        background: #303030;
+        padding: 30px 0;
+
+        .main-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .box-left {
+
+                .btn {
+                    text-transform: uppercase;
+                    padding: 10px;
+                    font-size: 22px;
+                    border: 2px solid $primary_color;
+                    font-size: 18px;
+                    color: #fff;
+                    font-weight: bold;
+
+                    &:hover {
+                        background: $primary_color;
+                    }
+                }
+            }
+
+            .box-right {
+
+                .main-box {
+
+                    .box-social {
+                        display: flex;
+
+                        .box-img {
+                            margin-left: 15px;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .box-text {
+
+                        p {
+                            color: $primary_color;
+                            font-size: 18px;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            margin: 0;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

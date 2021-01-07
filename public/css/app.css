@@ -157,3 +157,92 @@ main #banner .box-banner .box-text h3 {
   margin: 0 auto;
   font-weight: bold;
 }
+
+footer {
+  color: #fff;
+}
+footer .f-top {
+  background-image: url("/images/footer-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+footer .f-top .box-image {
+  position: absolute;
+  right: 80px;
+  overflow: hidden;
+  top: -60px;
+}
+footer .f-top .container {
+  display: flex;
+}
+footer .f-top .container .box-text-end {
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+footer .f-top .container .box-text-end p {
+  font-size: 13px;
+  margin: 0;
+  color: #959595;
+}
+footer .f-top .main-box {
+  padding-top: 30px;
+  margin-right: 60px;
+}
+footer .f-top .main-box .box-link ul {
+  padding: 0;
+}
+footer .f-top .main-box .box-link ul li a {
+  color: #959595;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+footer .f-top .main-box .box-link ul li a:hover {
+  color: #0282F9;
+}
+footer .f-top .main-box .title h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+footer .f-top .main-box .box-2 {
+  margin-top: 20px;
+}
+footer .f-bottom {
+  background: #303030;
+  padding: 30px 0;
+}
+footer .f-bottom .main-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .f-bottom .main-box .box-left .btn {
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 22px;
+  border: 2px solid #0282F9;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+footer .f-bottom .main-box .box-left .btn:hover {
+  background: #0282F9;
+}
+footer .f-bottom .main-box .box-right .main-box .box-social {
+  display: flex;
+}
+footer .f-bottom .main-box .box-right .main-box .box-social .box-img {
+  margin-left: 15px;
+  cursor: pointer;
+}
+footer .f-bottom .main-box .box-right .main-box .box-text p {
+  color: #0282F9;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+  margin-right: 10px;
+}
