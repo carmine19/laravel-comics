@@ -12,11 +12,11 @@
                 <div class="col-lg-12">
                     <h2>Current series </h2>
                 </div>
-                @foreach($comics as $value)
+                @foreach($comics as $index => $value)
                 <div class="col-lg-2">
                     <div class="box-card">
                         <div class="box-image">
-                            <a href="#">
+                            <a href="{{ route('comic-details', ['id' => $index]) }}">
                                 <img src="{{$value['thumb']}}" alt="">
                             </a>
                         </div>

@@ -157,6 +157,102 @@ main #banner .box-banner .box-text h3 {
   margin: 0 auto;
   font-weight: bold;
 }
+main #blue-banner {
+  background: #0282F9;
+  height: 80px;
+}
+main #blue-banner .container {
+  position: relative;
+}
+main #blue-banner .container .box-image {
+  transform: translateY(-82%);
+}
+main #details-cart-top {
+  padding: 80px 0;
+}
+main #details-cart-top .main-box-details-top .title h1 {
+  color: #003f5e;
+  font-size: 38px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+main #details-cart-top .main-box-details-top .box-price {
+  background: #55BA59;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main #details-cart-top .main-box-details-top .box-price p {
+  margin: 0;
+}
+main #details-cart-top .main-box-details-top .box-price .avaiable p {
+  text-transform: uppercase;
+  color: #bafd9c;
+}
+main #details-cart-top .main-box-details-top .description {
+  margin-top: 20px;
+}
+main #details-cart-top .main-box-details-top .description p {
+  font-size: 14px;
+  line-height: 23px;
+  color: #555555;
+}
+main #details-card-bottom {
+  padding: 30px;
+  background: #F6F6F6;
+}
+main #details-card-bottom .talent-box .title {
+  border-bottom: 1px solid lightgray;
+}
+main #details-card-bottom .talent-box .title h2 {
+  color: #003f5e;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  padding-bottom: 20px;
+}
+main #details-card-bottom .talent-box .info .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 7px 0;
+}
+main #details-card-bottom .talent-box .info .box p {
+  margin: 0;
+  font-size: 14px;
+  color: #003f5e;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+main #details-card-bottom .spec-box .title {
+  border-bottom: 1px solid lightgray;
+}
+main #details-card-bottom .spec-box .title h2 {
+  color: #003f5e;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  padding-bottom: 20px;
+}
+main #details-card-bottom .spec-box .info .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 7px 0;
+}
+main #details-card-bottom .spec-box .info .box p {
+  margin: 0;
+  font-size: 14px;
+  color: #003f5e;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
 
 footer {
   color: #fff;
